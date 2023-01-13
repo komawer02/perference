@@ -44,6 +44,11 @@ namespace 선호도조사
             this.w5 = new System.Windows.Forms.Label();
             this.back = new System.Windows.Forms.Button();
             this.foward = new System.Windows.Forms.Button();
+            this.n1 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -60,7 +65,7 @@ namespace 선호도조사
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 11F);
-            this.label2.Location = new System.Drawing.Point(103, 120);
+            this.label2.Location = new System.Drawing.Point(138, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 19);
             this.label2.TabIndex = 1;
@@ -70,7 +75,7 @@ namespace 선호도조사
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 11F);
-            this.label3.Location = new System.Drawing.Point(336, 120);
+            this.label3.Location = new System.Drawing.Point(401, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 19);
             this.label3.TabIndex = 2;
@@ -80,7 +85,7 @@ namespace 선호도조사
             // 
             this.t1.AutoSize = true;
             this.t1.Font = new System.Drawing.Font("굴림", 11F);
-            this.t1.Location = new System.Drawing.Point(103, 161);
+            this.t1.Location = new System.Drawing.Point(138, 161);
             this.t1.Name = "t1";
             this.t1.Size = new System.Drawing.Size(39, 19);
             this.t1.TabIndex = 3;
@@ -91,7 +96,7 @@ namespace 선호도조사
             // 
             this.w1.AutoSize = true;
             this.w1.Font = new System.Drawing.Font("굴림", 11F);
-            this.w1.Location = new System.Drawing.Point(336, 161);
+            this.w1.Location = new System.Drawing.Point(401, 161);
             this.w1.Name = "w1";
             this.w1.Size = new System.Drawing.Size(39, 19);
             this.w1.TabIndex = 4;
@@ -101,7 +106,7 @@ namespace 선호도조사
             // 
             this.t2.AutoSize = true;
             this.t2.Font = new System.Drawing.Font("굴림", 11F);
-            this.t2.Location = new System.Drawing.Point(103, 206);
+            this.t2.Location = new System.Drawing.Point(138, 206);
             this.t2.Name = "t2";
             this.t2.Size = new System.Drawing.Size(39, 19);
             this.t2.TabIndex = 5;
@@ -112,7 +117,7 @@ namespace 선호도조사
             // 
             this.w2.AutoSize = true;
             this.w2.Font = new System.Drawing.Font("굴림", 11F);
-            this.w2.Location = new System.Drawing.Point(336, 206);
+            this.w2.Location = new System.Drawing.Point(401, 206);
             this.w2.Name = "w2";
             this.w2.Size = new System.Drawing.Size(39, 19);
             this.w2.TabIndex = 6;
@@ -122,7 +127,7 @@ namespace 선호도조사
             // 
             this.t3.AutoSize = true;
             this.t3.Font = new System.Drawing.Font("굴림", 11F);
-            this.t3.Location = new System.Drawing.Point(103, 254);
+            this.t3.Location = new System.Drawing.Point(138, 254);
             this.t3.Name = "t3";
             this.t3.Size = new System.Drawing.Size(39, 19);
             this.t3.TabIndex = 7;
@@ -133,7 +138,7 @@ namespace 선호도조사
             // 
             this.w3.AutoSize = true;
             this.w3.Font = new System.Drawing.Font("굴림", 11F);
-            this.w3.Location = new System.Drawing.Point(336, 254);
+            this.w3.Location = new System.Drawing.Point(401, 254);
             this.w3.Name = "w3";
             this.w3.Size = new System.Drawing.Size(39, 19);
             this.w3.TabIndex = 8;
@@ -143,7 +148,7 @@ namespace 선호도조사
             // 
             this.t4.AutoSize = true;
             this.t4.Font = new System.Drawing.Font("굴림", 11F);
-            this.t4.Location = new System.Drawing.Point(103, 301);
+            this.t4.Location = new System.Drawing.Point(138, 301);
             this.t4.Name = "t4";
             this.t4.Size = new System.Drawing.Size(39, 19);
             this.t4.TabIndex = 9;
@@ -154,7 +159,7 @@ namespace 선호도조사
             // 
             this.w4.AutoSize = true;
             this.w4.Font = new System.Drawing.Font("굴림", 11F);
-            this.w4.Location = new System.Drawing.Point(336, 301);
+            this.w4.Location = new System.Drawing.Point(401, 301);
             this.w4.Name = "w4";
             this.w4.Size = new System.Drawing.Size(39, 19);
             this.w4.TabIndex = 10;
@@ -164,7 +169,7 @@ namespace 선호도조사
             // 
             this.t5.AutoSize = true;
             this.t5.Font = new System.Drawing.Font("굴림", 11F);
-            this.t5.Location = new System.Drawing.Point(103, 352);
+            this.t5.Location = new System.Drawing.Point(138, 352);
             this.t5.Name = "t5";
             this.t5.Size = new System.Drawing.Size(39, 19);
             this.t5.TabIndex = 11;
@@ -175,7 +180,7 @@ namespace 선호도조사
             // 
             this.w5.AutoSize = true;
             this.w5.Font = new System.Drawing.Font("굴림", 11F);
-            this.w5.Location = new System.Drawing.Point(336, 352);
+            this.w5.Location = new System.Drawing.Point(401, 352);
             this.w5.Name = "w5";
             this.w5.Size = new System.Drawing.Size(39, 19);
             this.w5.TabIndex = 12;
@@ -201,11 +206,66 @@ namespace 선호도조사
             this.foward.UseVisualStyleBackColor = true;
             this.foward.Click += new System.EventHandler(this.foward_Click);
             // 
+            // n1
+            // 
+            this.n1.AutoSize = true;
+            this.n1.Font = new System.Drawing.Font("굴림", 11F);
+            this.n1.Location = new System.Drawing.Point(29, 161);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(55, 19);
+            this.n1.TabIndex = 15;
+            this.n1.Text = "label4";
+            // 
+            // n2
+            // 
+            this.n2.AutoSize = true;
+            this.n2.Font = new System.Drawing.Font("굴림", 11F);
+            this.n2.Location = new System.Drawing.Point(29, 206);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(55, 19);
+            this.n2.TabIndex = 16;
+            this.n2.Text = "label5";
+            // 
+            // n3
+            // 
+            this.n3.AutoSize = true;
+            this.n3.Font = new System.Drawing.Font("굴림", 11F);
+            this.n3.Location = new System.Drawing.Point(29, 254);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(55, 19);
+            this.n3.TabIndex = 17;
+            this.n3.Text = "label6";
+            // 
+            // n4
+            // 
+            this.n4.AutoSize = true;
+            this.n4.Font = new System.Drawing.Font("굴림", 11F);
+            this.n4.Location = new System.Drawing.Point(29, 301);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(55, 19);
+            this.n4.TabIndex = 18;
+            this.n4.Text = "label7";
+            // 
+            // n5
+            // 
+            this.n5.AutoSize = true;
+            this.n5.Font = new System.Drawing.Font("굴림", 11F);
+            this.n5.Location = new System.Drawing.Point(29, 352);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(55, 19);
+            this.n5.TabIndex = 19;
+            this.n5.Text = "label8";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 562);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n1);
             this.Controls.Add(this.foward);
             this.Controls.Add(this.back);
             this.Controls.Add(this.w5);
@@ -247,5 +307,10 @@ namespace 선호도조사
         private System.Windows.Forms.Label w5;
         private System.Windows.Forms.Button back;
         private System.Windows.Forms.Button foward;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label n5;
     }
 }

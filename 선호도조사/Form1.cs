@@ -41,7 +41,7 @@ namespace 선호도조사
         bool id_exist = false;
         string login_id = "none";
         string login_pass = "none";
-        string login_path = @"C:\Users\홍동우123\선호도조사\userdata.txt";
+        
 
         public Form1()
         {

@@ -39,37 +39,38 @@ namespace 선호도조사
             // 
             // id
             // 
-            this.id.Location = new System.Drawing.Point(217, 136);
+            this.id.Location = new System.Drawing.Point(248, 170);
             this.id.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(156, 21);
+            this.id.Size = new System.Drawing.Size(178, 25);
             this.id.TabIndex = 0;
             this.id.TextChanged += new System.EventHandler(this.id_TextChanged);
             // 
             // pass
             // 
-            this.pass.Location = new System.Drawing.Point(217, 161);
+            this.pass.Location = new System.Drawing.Point(248, 201);
             this.pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(156, 21);
+            this.pass.PasswordChar = '*';
+            this.pass.Size = new System.Drawing.Size(178, 25);
             this.pass.TabIndex = 1;
             // 
             // title
             // 
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("굴림", 15F);
-            this.title.Location = new System.Drawing.Point(223, 94);
+            this.title.Location = new System.Drawing.Point(255, 118);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(203, 20);
+            this.title.Size = new System.Drawing.Size(253, 25);
             this.title.TabIndex = 2;
             this.title.Text = "선호도 조사 프로그램";
             // 
             // join
             // 
-            this.join.Location = new System.Drawing.Point(217, 186);
+            this.join.Location = new System.Drawing.Point(248, 232);
             this.join.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.join.Name = "join";
-            this.join.Size = new System.Drawing.Size(66, 18);
+            this.join.Size = new System.Drawing.Size(75, 22);
             this.join.TabIndex = 3;
             this.join.Text = "회원가입";
             this.join.UseVisualStyleBackColor = true;
@@ -77,10 +78,10 @@ namespace 선호도조사
             // 
             // find_id
             // 
-            this.find_id.Location = new System.Drawing.Point(288, 186);
+            this.find_id.Location = new System.Drawing.Point(329, 232);
             this.find_id.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.find_id.Name = "find_id";
-            this.find_id.Size = new System.Drawing.Size(136, 18);
+            this.find_id.Size = new System.Drawing.Size(155, 22);
             this.find_id.TabIndex = 4;
             this.find_id.Text = "ID/PASS 찾기";
             this.find_id.UseVisualStyleBackColor = true;
@@ -88,10 +89,10 @@ namespace 선호도조사
             // 
             // login
             // 
-            this.login.Location = new System.Drawing.Point(378, 136);
+            this.login.Location = new System.Drawing.Point(432, 170);
             this.login.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(79, 45);
+            this.login.Size = new System.Drawing.Size(90, 56);
             this.login.TabIndex = 5;
             this.login.Text = "로그인";
             this.login.UseVisualStyleBackColor = true;
@@ -99,9 +100,9 @@ namespace 선호도조사
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 360);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.login);
             this.Controls.Add(this.find_id);
             this.Controls.Add(this.join);

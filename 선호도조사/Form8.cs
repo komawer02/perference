@@ -52,7 +52,7 @@ namespace 선호도조사
             var update = Builders<Article>.Update.Set("title", t.Text);
             Form1.article.UpdateOne(filter, update);
 
-            
+            filter = Builders<Article>.Filter.Eq("title", t.Text);
             update = Builders<Article>.Update.Set("writer", w.Text);
             Form1.article.UpdateOne(filter, update);
 
